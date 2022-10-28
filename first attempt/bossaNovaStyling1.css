@@ -1,0 +1,242 @@
+header {
+    background-color: #DE5914;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 45px;
+    border-radius: 10px;
+
+    padding: 10px; 
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navigationClass {
+    background-color: white;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    border-radius: 40px;
+    border: 3px solid #dbdbdb;
+
+    color: black;
+    font-size: 27px;
+    text-align: center;
+}
+
+.navigation {
+    padding: 30px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.navigation:visited {
+    text-decoration: none;
+    color: black;
+}
+.navigation:hover {
+    text-decoration: none;
+    color: #DE5914;
+}
+
+
+.introductionParagraph {
+    background-color: #94B2DB;
+    color: white; 
+
+    text-align: center;
+    border-radius: 10px;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.youtubeVideo {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+
+    color: #DE5914;
+    font-size: 15px;
+}
+
+
+.videoCaptionSpotify {
+    background-color:#94B2DB;
+    color: white;
+    font-size: 17px;
+    font-weight: 550;
+    border-radius: 10px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;  
+
+}
+
+.originButton {
+    background-color: #DE5914;
+    color: white;
+    text-align: center;
+
+    padding: 7px; 
+    border-radius: 30px;
+}
+
+.originBody {
+    color: #6f86a6;
+    font-size: 18px;
+
+    padding: 20px;
+}
+
+.musicButton {
+    background-color: #DE5914;
+    color: white;
+    text-align: center;
+
+    padding: 7px; 
+    border-radius: 30px;
+}
+
+.musicBody {
+    color: #94B2DB;
+    font-weight: 550;
+    font-size: 18px;
+
+    padding: 18px;
+}
+
+.musicWebsite {
+    border: 3px solid #ffffff;
+    padding: 20px;
+
+    background-color: white;
+    border-radius: 10px;
+
+
+    font-size: 18px;
+    color: #DE5914;
+}
+
+
+.lyricButton {
+    background-color: #DE5914;
+    color: white;
+    text-align: center;
+
+    padding: 7px;
+    border-radius: 30px;
+}
+
+.lyricIntroduction {
+    background-color: white;
+    color: #94B2DB;
+    font-size: 18px; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.girlFromIpanema {
+    background-color: #fff;
+    padding: 20px;
+    color: black;
+    text-align: center;
+
+    border: 3px solid #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.spotifyLinks {
+    background-color: #94B2DB;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+
+.coisaMaisLinda {
+    background-color: #fff;
+    padding: 20px;
+    color: black;
+    text-align: center;
+
+    border: 3px solid #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.artistsButton {
+    background-color: #DE5914;
+    color: white;
+    text-align: center;
+
+    padding: 7px; 
+    border-radius: 30px;
+}
+
+
+.artistIntroduction {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.tomJobimSection {
+    background-color: #94B2DB;
+    color: white;
+
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.joaoGilbertoSection {
+    background-color: white;
+    color: #94B2DB;
+
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+}
+
+.artistsAdditionalInfo {
+    background-color: white;
+    color: #94B2DB;
+
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+}
+
+.johnnyAlfSection {
+    background-color: #94B2DB;
+    color: white;
+
+    text-align: center; 
+    border-radius: 10px;
+    font-size: 18px;
+
+    padding: 30px;
+}
+
+.significance {
+    background-color: white;
+    color: #94B2DB;
+
+    font-size: 20px;
+    padding: 20px;
+
+    text-align: center;
+}

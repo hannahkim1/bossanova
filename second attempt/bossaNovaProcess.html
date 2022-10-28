@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html>
+
+    <style>
+
+        body {
+            background-image: url('bossaNovaBackground.jpg');
+            background-size: 100% 100%;
+            background-size: cover;
+        
+            font-family: 'Inter';
+        }
+
+        header {
+            width: 100%;
+            left: 50px;
+            top: 83px;
+
+            padding-top: 80px;
+            padding-left: 30px;
+            padding-bottom: 70px;
+    
+            font-style: normal;
+            font-weight: 100;
+            font-size: 50px;
+    
+            color: white;
+    
+            mix-blend-mode: normal;
+        }
+        
+        .originalLink {
+            color: white;
+            text-decoration: none;
+        }
+        .originalLink:visited {
+            color: white;
+        }
+        .originalLink:hover {
+            color: #ED7E39;
+        }
+
+        .milanote {
+            width: 50%;
+            margin: auto;
+            
+            padding-top: 20px;
+            padding-right: 250px;
+        }
+        .milanoteText {
+            background-color: white;
+            border-radius: 50%;
+
+            color: #264A26;
+            padding: 40px;
+
+            margin-top: 20px;
+        }
+
+        p {
+            width: 80%;
+            margin: auto;
+
+            font-style: normal;
+            font-weight: 50;
+            font-size: 15px;
+            line-height: 29px;
+            text-align: center;
+
+            color: #264A26;
+        }
+
+        .googleDoc {
+            width: 60%;
+            margin: auto;
+
+            margin-top: 350px;
+            padding-left: 200px;
+            margin-bottom: 350px;
+        }
+
+        .first {
+            width: 50%;
+            margin: auto;
+            
+            padding-left: 200px;
+            margin-bottom: 350px;
+        }
+
+        .second {
+            width: 50%;
+            margin: auto;
+
+            padding-right: 200px;
+            margin-bottom: 350px;
+        }
+
+        .third {
+            width: 50%;
+            margin: auto;
+
+            padding-left: 200px;
+            margin-bottom: 350px;
+        }
+
+        .fourth {
+            width: 50%;
+            margin: auto;
+
+            padding-left: 60px;
+            margin-bottom: 350px;
+        }
+
+
+        .reveal {
+            position: relative;
+            transform: translateY(150px);
+            opacity: 0;
+            transition: 2s all ease;
+        }
+        .reveal.active {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        .animate__animated.animate__shakeY.animate__infinite.infinite {
+            animation-duration: 4s;
+        }       
+
+    </style>
+
+
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+        <script src="mainBossaNova.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <title>bossa nova design process</title>
+    </head>
+
+    <body>
+
+        <!--header-->
+        <section id="header">
+            <header>
+                <h1>bossa nova design process</h1>
+                <div class="animate__animated animate__shakeY animate__infinite infinite">
+                    <div class="originalLink">
+                        <a href="bossaNova2.html" style="text-decoration: none; color: white">bossa nova website</a>
+                    </div>
+                </div>
+            </header>
+        </section>
+
+        <!-- milanote -->
+        <section class="container reveal" id="milanote">
+            <div class="milanote">
+                <iframe src="https://app.milanote.com/1N86gd1lHQrj19?p=GK5TRFbs4tt" width="100%" height="500" frameborder="50"></iframe>
+
+                <div class="milanoteText">
+                    <p>Here is a visual board of my though process throughout the entire creation of the website. It contains my script, playlist, and links to my wireframes.
+                        In my milanote, you could see how I initally wanted to do a 3d model/vr experience relating to bossa nova.
+                    </p>
+                    <p>
+                        However, I did not think that a vr experience would convey enough information that I wanted to give, so I decided to make a website.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- google doc -->
+        <section class="container reveal" id="google doc">
+            <div class="googleDoc">
+                <iframe src="https://docs.google.com/document/d/1W0iL7sb11SAL9kqa9L5I5N93Db1m61CJxam9lDa-y1U/edit?usp=sharing" width= "100%" height= "500" frameborder="0"></iframe>
+            </div>
+        </section>
+
+        <!-- first storymap -->
+        <section class="container reveal" id="storymap">
+            <div class="first">
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F5ngfgyVhOqo8Md9OJl821N%2Fbossa-nova-storymap%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+                <div class="milanoteText" style="width: 30%; margin: auto">
+                    <p>My first wireframe</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- figma attempt -->
+        <section class="container reveal" id="second">
+            <div class="second">
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FNJZOhn91HO36rnH6B0N719%2Fbossa-nova-wireframe%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+                <div class="milanoteText" style="width: 50%; margin: auto">
+                    <p>My second attempt </p>
+                    <p>
+                        I ended up re-doing the entire design because it seemed unrelated to bossa nova. It was too childish and informal.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- figma final attempt -->
+        <section class="container reveal" id="final">
+            <div class="third">
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F6qNQYKLgYI8pmPJFfCqTBJ%2Fnew-bossa-nova%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+                <div class="milanoteText" style="width: 40%; margin: auto">
+                    <p>
+                        This is my final wireframe and design of the website.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- sources -->
+        <section class="container reveal" id="sources">
+            <div class="fourth">
+                <iframe src="bossaNovaSources.pdf" height="300" width="100%"></iframe>
+                <div class="milanoteText">
+                    <p>
+                        Here are a list of sources I used as apart of my research. This list is included in the milanote.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </body>
+</html>
